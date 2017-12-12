@@ -142,6 +142,10 @@ h2.section-title {
 	Parallax sections
 	
 -----------------------------------*/
+
+.parallax-container.pad {
+	padding: 6vw 0;
+}
 .parallax-container .parallax {
     z-index: -2;
 }
