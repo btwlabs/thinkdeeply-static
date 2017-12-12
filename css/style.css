@@ -112,11 +112,12 @@ nav .brand-logo img {
 
 /* change outdated font size defaults in materialize theme */
  
-
+.main-content p {
+	font-weight: 300;
+}
 @media only screen and (min-width: 0) {
 	.main-content p {
 		font-size: 17px;
-		font
 	}
 }
 @media only screen and (min-width: 992px) {
