@@ -5,14 +5,25 @@
  *
  * Made By MaterializeCSS.com
  */
+ 
+ 
+/*------------------------------------
+	
+	General stuff
+	
+------------------------------------*/
+
+html {
+	color: rgba(0,0,0,0.7);
+}
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #777;
 }
 
 p {
-  line-height: 2rem;
+  line-height: 2em;
 }
 
 .sidenav-trigger {
@@ -54,4 +65,89 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/* Images */
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/*------------------------------------
+	
+	Navigation
+	
+------------------------------------*/
+
+nav .brand-logo {
+    width: 180px;
+}
+
+
+/*------------------------------------
+	
+	Sections
+	
+------------------------------------*/
+
+.container.pad {
+	padding: 4vw 0;
+}
+.container.pad-top {
+	padding-top: 4vw;
+}
+.container.pad-bottom {
+	padding-bottom: 4vw;
+}
+
+
+/* change outdated font size defaults in materialize theme */
+ 
+
+@media only screen and (min-width: 0) {
+	.main-content p {
+		font-size: 17px;
+		font
+	}
+}
+@media only screen and (min-width: 992px) {
+	.main-content p {
+    	font-size: 17px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+	.main-content p {
+    	font-size: 19px;
+    }
+}
+
+/*------------------------------------
+	
+	Section 2 
+	
+------------------------------------*/
+
+h2.section-title {
+	text-align: center;
+}
+
+
+
+/*------------------------------------
+	
+	Parallax sections
+	
+-----------------------------------*/
+.parallax-container .parallax {
+    z-index: -2;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(0,0,0,0.3);
 }
