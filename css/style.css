@@ -35,6 +35,20 @@ p {
 	color: #26a69a;
 }
 
+
+/*--------------------
+	Container 
+--------------------*/
+@media only screen and (min-width: 993px) {
+	.container {
+	    width: 80%;
+	}
+}
+
+
+/*--------------------
+	Parallax 
+---------------------*/
 .parallax-container {
 	min-height: 380px;
 	line-height: 0;
@@ -55,13 +69,16 @@ p {
 	}
 }
 
-
 @media only screen and (max-width : 600px) {
 	#index-banner .section {
 		top: 0;
 	}
 }
 
+
+/*-------------------
+	Icons 
+---------------------*/
 .icon-block {
 	padding: 0 15px;
 }
@@ -100,13 +117,13 @@ nav .brand-logo img {
 ------------------------------------*/
 
 .container.pad {
-	padding: 4vw 0;
+	padding: 6vw 0;
 }
 .container.pad-top {
-	padding-top: 4vw;
+	padding-top: 6vw;
 }
 .container.pad-bottom {
-	padding-bottom: 4vw;
+	padding-bottom: 6vw;
 }
 
 
@@ -130,6 +147,18 @@ nav .brand-logo img {
     	font-size: 19px;
     }
 }
+
+/*------------------------------------
+	
+	AI Section
+	
+------------------------------------*/
+
+.section-ai {
+	background: url(../images/laptop-screen-lamps-lg.png) no-repeat scroll right center;
+	background-size: 50% auto;
+}
+
 
 /*------------------------------------
 	
