@@ -213,3 +213,36 @@ nav ul a {
     font-size: 6em;
     line-height: .5;
 }
+
+
+/*------------------------------------
+	
+	About section
+	
+------------------------------------*/
+
+@media only screen and (max-width: 992px) {
+	.parallax-container.about {
+    	min-height: 600px;
+    }
+}
+
+/*------------------------------------
+	
+	FOOTER
+	
+------------------------------------*/
+
+.footer-copyright {
+    font-size: 13px;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.page-footer {
+	background-color: #193755;
+	padding: 2vw 0;
+}
+.page-footer a {
+	color: #90caf9;
+}
