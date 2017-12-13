@@ -152,13 +152,16 @@ nav .brand-logo img {
 	
 	AI Section
 	
-------------------------------------*/
+
 
 .section-ai {
 	background: url(../images/laptop-screen-lamps-lg.png) no-repeat scroll right center;
 	background-size: 50% auto;
 }
-
+------------------------------------*/
+.section-ai img{
+	margin-top: 50px;
+	}
 
 /*------------------------------------
 	
