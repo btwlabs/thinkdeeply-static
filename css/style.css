@@ -50,7 +50,7 @@ p {
 	Parallax 
 ---------------------*/
 .parallax-container {
-	min-height: 380px;
+	min-height: 500px;
 	line-height: 0;
 	height: auto;
 	color: rgba(255,255,255,.9);
@@ -62,17 +62,40 @@ p {
 @media only screen and (max-width : 992px) {
 	.parallax-container .section {
 		position: absolute;
-		top: 0%;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
-	#index-banner .section {
+	/*#index-banner .section {
 		top: 10%;
-	}
+	}*/
 }
 
-@media only screen and (max-width : 600px) {
+/*@media only screen and (max-width : 600px) {
 	#index-banner .section {
 		top: 0;
 	}
+}*/
+
+
+.parallax-container.pad {
+	padding: 10vw 0;
+}
+.parallax-container .parallax {
+    z-index: -2;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: rgba(3,19,33,0.4);
 }
 
 
@@ -98,7 +121,7 @@ img {
 
 /*------------------------------------
 	
-	Navigation
+	Navigation & Logo
 	
 ------------------------------------*/
 
@@ -107,6 +130,10 @@ nav .brand-logo {
 }
 nav .brand-logo img {
 	max-width: 100%;
+}
+
+nav ul a {
+	text-transform: uppercase;
 }
 
 
@@ -148,15 +175,31 @@ nav .brand-logo img {
     }
 }
 
+
+/*------------------------------------
+	
+	HERO section
+	
+-------------------------------------*/
+
+.section-hero h5.header {
+    margin: 0 0 25px;
+}
+
+
+
 /*------------------------------------
 	
 	AI Section
 	
 ------------------------------------*/
 
-.section-ai {
-	background: url(../images/laptop-screen-lamps-lg.png) no-repeat scroll right center;
-	background-size: 50% auto;
+.section-ai h2 {
+	text-align: center;
+}
+.section-ai img {
+    width: 100%;
+    margin-top: 20px;
 }
 
 
@@ -169,29 +212,4 @@ nav .brand-logo img {
 .section-solutions .icon-block h2 {
     font-size: 6em;
     line-height: .5;
-}
-
-
-
-
-/*------------------------------------
-	
-	Parallax sections
-	
------------------------------------*/
-
-.parallax-container.pad {
-	padding: 10vw 0;
-}
-.parallax-container .parallax {
-    z-index: -2;
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background: rgba(3,19,33,0.4);
 }
