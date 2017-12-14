@@ -206,7 +206,33 @@ nav ul a {
     margin: 0 0 25px;
 }
 
+h1.header {
+    height: 60px;
+    margin: 0 auto 25px;
+    background: url(../images/logo-white.svg) no-repeat scroll center center;
+}
 
+@media only screen and (min-width: 0) {
+	h1.header {
+		background-size: 250px auto;
+	}
+}
+@media only screen and (min-width: 992px) {
+	h1.header {
+    	background-size: 300px auto;
+    }
+}
+@media only screen and (min-width: 1200px) {
+	h1.header {
+    	background-size: 400px auto;
+    }
+}
+
+
+
+h1.header span {
+	display: none;
+}
 
 /*------------------------------------
 	
